@@ -35,52 +35,16 @@ class NumeralConverter
     public function convertToRomanNumerals(int $input) : string
     {
         $number = '';
-        foreach($this->getPositionalNotation($input) as $digit => $value)
+        foreach(array_reverse($this->mapping, true) as $key => $numeral)
         {
-            $number .= $this->getNumeral($digit, $value);
+            while($input >= $key)
+            {
+                $input -= $key;
+                $number .= $numeral;
+            }
         }
+
+
         return $number;
-    }
-
-    public function getNumeral(int $digit, int $value) : string
-    {
-        $romanNumeral = '';
-        while($value > 0)
-        {
-            $romanNumeral .= $this->mapping[$digit];
-            $value--;
-        }
-
-        return $romanNumeral;
-    }
-
-    public function getPositionalNotation(int $input) : array
-    {
-        $intLength = $this->countDigits($input);
-        $positionalNotationOfInput = [];
-        foreach($this->splitNumber($input) as $digit)
-        {
-            $positionalNotationOfInput[$this->positionalNotationMapping[$intLength]] = (int)$digit;
-            $intLength--;
-        }
-
-        return $positionalNotationOfInput;
-    }
-
-    private function countDigits(int $input) : int
-    {
-        $length = 1;
-        while ($input >= 10)
-        {
-            $input = ($input / 10);
-            $length++;
-        }
-
-        return $length;
-    }
-
-    private function splitNumber(int $input)
-    {
-        return str_split((string)$input);
     }
 }

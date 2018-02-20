@@ -15,26 +15,13 @@ class NumeralConverterTest extends \PHPUnit_Framework_TestCase
 
     public function testMappingOfRomanNumeralsIsCorrect()
     {
-        $this->assertEquals('I', $this->converter->getNumeral(1, 1));
-        $this->assertEquals('V', $this->converter->getNumeral(5, 1));
-        $this->assertEquals('X', $this->converter->getNumeral(10, 1));
-        $this->assertEquals('L', $this->converter->getNumeral(50, 1));
-        $this->assertEquals('C', $this->converter->getNumeral(100, 1));
-        $this->assertEquals('D', $this->converter->getNumeral(500, 1));
-        $this->assertEquals('M', $this->converter->getNumeral(1000, 1));
-    }
-
-    public function testNumberCanBeSplitToPositionalNotation()
-    {
-        $this->assertSame(
-            [
-                1000 => 2,
-                100 => 0,
-                10 => 1,
-                1 => 8
-            ],
-            $this->converter->getPositionalNotation(2018)
-        );
+        $this->assertEquals('I', $this->converter->convertToRomanNumerals(1));
+        $this->assertEquals('VI', $this->converter->convertToRomanNumerals(6));
+        $this->assertEquals('X', $this->converter->convertToRomanNumerals(10));
+        $this->assertEquals('LVII', $this->converter->convertToRomanNumerals(57));
+        $this->assertEquals('CXC', $this->converter->convertToRomanNumerals(190));
+        $this->assertEquals('D', $this->converter->convertToRomanNumerals(500));
+        $this->assertEquals('MMCMXC', $this->converter->convertToRomanNumerals(2990));
     }
 
     public function testConvertToNumerals()

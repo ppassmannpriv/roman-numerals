@@ -13,21 +13,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NumeralConverterTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumeralConverterTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../roman-numerals/tests/NumeralConverterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="414">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumeralConverter.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumeralConverter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="803">
+              <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -38,6 +38,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getNumeral</find>
+      <find>getPositionalNotation</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -242,12 +243,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519120185448</updated>
-      <workItem from="1519120186586" duration="9334000" />
+      <workItem from="1519120186586" duration="11483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9334000" />
+    <option name="totallyTimeSpent" value="11483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1966" y="-11" width="1875" height="1092" extended-state="6" />
@@ -292,18 +293,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../roman-numerals/tests/NumeralConverterTest.php">
+    <entry file="file://$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="803">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php">
+    <entry file="file://$PROJECT_DIR$/../roman-numerals/tests/NumeralConverterTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="414">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding />
         </state>
       </provider>
