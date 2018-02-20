@@ -13,7 +13,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NumeralConverterTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumeralConverterTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../roman-numerals/tests/NumeralConverterTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumeralConverter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumeralConverter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="40" column="92" lean-forward="false" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
+            <state relative-caret-position="533">
+              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -39,8 +39,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../roman-numerals/tests/AdderTest.php" />
-        <option value="$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php" />
         <option value="$PROJECT_DIR$/../roman-numerals/tests/NumeralConverterTest.php" />
+        <option value="$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php" />
       </list>
     </option>
   </component>
@@ -237,12 +237,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519120185448</updated>
-      <workItem from="1519120186586" duration="6354000" />
+      <workItem from="1519120186586" duration="6511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6354000" />
+    <option name="totallyTimeSpent" value="6511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1966" y="-11" width="1875" height="1092" extended-state="6" />
@@ -287,18 +287,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="40" column="92" lean-forward="false" selection-start-line="40" selection-start-column="92" selection-end-line="40" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../roman-numerals/tests/NumeralConverterTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../roman-numerals/src/NumeralConverter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding />
         </state>
       </provider>

@@ -34,23 +34,15 @@ class NumeralConverter
     public function getPositionalNotation(int $input) : array
     {
         $intLength = $this->countDigits($input);
-        /*$positionalNotationOfInput = $this->getPositionalNotationMapping($intLength);*/
         $positionalNotationOfInput = [];
         foreach($this->splitNumber($input) as $digit)
         {
             $positionalNotationOfInput[$this->positionalNotationMapping[$intLength]] = (int)$digit;
             $intLength--;
         }
-        var_dump($positionalNotationOfInput);
+
         return $positionalNotationOfInput;
     }
-
-    /*private function getPositionalNotationMapping(int $input)
-    {
-        $array = array_slice($this->positionalNotationMapping, 0 , $input, true);
-        $array = array_reverse($array, true);
-        return $array;
-    }*/
 
     private function countDigits(int $input) : int
     {
